@@ -17,9 +17,18 @@
 .list-group-item:hover {
 	background-color: #ddd;
 }
+.list-group-item:before {
+	content: '\f02d';
+    position: absolute;
+    left: -25px;
+    size: 20px;
+    font-family: FontAwesome;
+    color: green;
+}
 .main {
 	display: inline-block;
 	margin-left: 25px;
+	vertical-align: top;
 }
 .box {
 	position: absolute;
