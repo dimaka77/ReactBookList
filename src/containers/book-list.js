@@ -10,15 +10,13 @@ class BookList extends Component {
             <li 
                 onClick={() => {}}
                 key={book.title}
-                className="list-group-item">
-                {book.title}
-            </li>
+                className="list-group-item" />
         ); 
     }
 
     render() {
         return (
-            <ul className="list-group col-sm-4">
+            <ul className="list-group">
                 {this.renderList}
             </ul>
         )
