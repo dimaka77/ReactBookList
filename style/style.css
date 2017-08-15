@@ -1,0 +1,33 @@
+.list-group {
+	display: inline-block;
+}
+.list-group-item {
+	width: 250px;
+	cursor: pointer;
+}
+.list-group-item:nth-last-of-type(-n+3) {
+	color: blue;
+}
+.list-group-item:first-of-type {
+	color: red;
+}
+.list-group-item:nth-of-type(odd) {
+	background-color: beige;
+}
+.list-group-item:hover {
+	background-color: #ddd;
+}
+.main {
+	display: inline-block;
+	margin-left: 25px;
+}
+.box {
+	position: absolute;
+	width: 70vw;
+	padding: 100px;
+	background-color: #efefef;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	border-radius: 10px;
+}
