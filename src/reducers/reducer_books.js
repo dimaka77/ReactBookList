@@ -6,7 +6,6 @@ export default function() {
     { title: 'Developing in React', pages: 50 },
     { title: 'Eloquent Ruby', pages: 10 },
     { title: 'Great Expectations', pages: 1000 },
-    { title: 'A Wrinkle In Time', pages: 300 },
-    { title: 'Life as a Hologram', pages: 400 },
+    { title: 'A Wrinkle In Time', pages: 300 }
   ];
 }
